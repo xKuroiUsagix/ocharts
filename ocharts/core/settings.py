@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     # Project Apps
     'user',
     'chart',
+    'home',
 ]
 
 MIDDLEWARE = [
@@ -132,5 +133,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-OSSAPI_CLIENT_ID = os.environ.get('OSSAPI_CLIENT_ID')
-OSSAPI_CLIENT_SECRET = os.environ.get('OSSAPI_CLIENT_SECRET')
+OSU_CLIENT_ID = os.environ.get('OSU_CLIENT_ID')
+OSU_CLIENT_SECRET = os.environ.get('OSU_CLIENT_SECRET')
